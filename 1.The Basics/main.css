@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  li:nth-child(2) code {
+    color: green;
+  }
+  
+  #assignment-instructions {
+    font-family: sans-serif;
+    color: greenyellow;
+  }
+  
+  code {
+    font-family: monospace;
+    color: red;
+  }
+  
+  li:not(:first-child) {
+  background-color: black;
+  color: white;
+  }
+  
+  ol li {
+    background-color: black;
+    color: white;
+  }
